@@ -12,7 +12,7 @@ else
         echo =w=
         exit 0
 fi
-python<<EOF
+python<<EOF 2>/dev/null
 table='fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF'
 tr={}
 for i in range(58):
